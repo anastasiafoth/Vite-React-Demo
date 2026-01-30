@@ -3,7 +3,7 @@
 }
 
 body {
-    padding: 20px;
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background: #27292c;
     color: white;
@@ -14,9 +14,12 @@ h1 {
 }
 
 .header {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0 8px 15px  black;
 }
 
 .nav-list {
@@ -31,4 +34,12 @@ h1 {
 
 .nav-logo {
     width: 55px;
+}
+main {
+    padding: 20px;
+}
+
+.footer {
+    background-color: black;
+    padding: 20px;
 }

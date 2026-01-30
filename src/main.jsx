@@ -37,7 +37,7 @@ function MainContent() {
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <small>© 2026 Ananas development. All rights reserved.</small>
     </footer>
   );
